@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>GraciaisGrace Portfolio</title>
+</head>
+<body>
+    <!-- <header id="top-nav">
+        <p id="logo">GraciaisGrace</p>
+        <div id="myLinks">
+            <a>Home</a>
+            <a>My Work</a>
+            <a>My Account</a>
+            <a>Contact</a>
+        </div>
+    </header> -->
+
+    <main>
+
+    <section id="sect-1">
+        <div id="home-box">
+            <h1 id="title">
+                <span class="name">GRACIA</span><span class="name">IS</span><span class="name">GRACE</span>
+            </h1>
+            <p id="title-desc">Microstock Portfolio</p>
+        </div>
+    </section>
+
+    <section id="sect-2">
+        <div id="work-container">
+            <div class="work-img" id="1">
+                <i class="fa-solid fa-arrow-left" onclick="plusSlides1(-1)"></i>
+                <i class="fa-solid fa-arrow-right" onclick="plusSlides1(1)"></i>
+                <img src="./animal-coloring/animal-1.jpg" class="mySlides1 fade1">
+                <img src="./animal-coloring/animal-2.jpg" class="mySlides1 fade1">
+                <img src="./animal-coloring/animal-3.jpg" class="mySlides1 fade1">
+                <img src="./animal-coloring/animal-4.jpg" class="mySlides1 fade1">
+                <img src="./animal-coloring/animal-5.jpg" class="mySlides1 fade1">
+            </div>
+            <div class="work-img">
+                <i class="fa-solid fa-arrow-left" onclick="plusSlides2(-1)"></i>
+                <i class="fa-solid fa-arrow-right" onclick="plusSlides2(1)"></i>
+                <img src="./flower/flower-1.jpg" class="mySlides2 fade2">
+                <img src="./flower/flower-2.jpg" class="mySlides2 fade2">
+                <img src="./flower/flower-3.jpg" class="mySlides2 fade2">
+                <img src="./flower/flower-4.jpg" class="mySlides2 fade2">
+                <img src="./flower/flower-5.jpg" class="mySlides2 fade2">
+            </div>
+            <div class="work-img">
+                <i class="fa-solid fa-arrow-left" onclick="plusSlides3(-1)"></i>
+                <i class="fa-solid fa-arrow-right" onclick="plusSlides3(1)"></i>
+                <img src="./food/food-1.jpg" class="mySlides3 fade3">
+                <img src="./food/food-2.jpg" class="mySlides3 fade3">
+                <img src="./food/food-3.jpg" class="mySlides3 fade3">
+                <img src="./food/food-4.jpg" class="mySlides3 fade3">
+                <img src="./food/food-5.jpg" class="mySlides3 fade3">
+            </div>
+            <div class="work-img">
+                <i class="fa-solid fa-arrow-left" onclick="plusSlides4(-1)"></i>
+                <i class="fa-solid fa-arrow-right" onclick="plusSlides4(1)"></i>
+                <img src="./other/other-1.jpg" class="mySlides4 fade4">
+                <img src="./other/other-2.jpg" class="mySlides4 fade4">
+                <img src="./other/other-3.jpg" class="mySlides4 fade4">
+                <img src="./other/other-4.jpg" class="mySlides4 fade4">
+                <img src="./other/other-5.jpg" class="mySlides4 fade4">
+            </div>
+        </div>
+    </section>
+
+    <section id="sect-3">
+        <a class="account" href="https://www.shutterstock.com/g/Gracia+design?_gl=1*16yqh5u*_ga*MTUzMzMzNjQ3MC4xNjc1NTE2OTQx*_ga_5JRYE4Y8J9*MTY5NDY5OTIyMC4xMDIuMS4xNjk0Njk5MzAyLjUzLjAuMA..*_fplc*NUs4TGRxS25VaDdrVEY2NHJmWHZYRlZQdFpSeDV4WHRzRXpZWDV1TTF3MmJnVlRITGJWVHluSUtGeEt1SGY5Y3RpdEl4dGlqRjRvMmJ2Mlh2WkNnZUR5R0hxU21OTG1Jb0VUWnlkRjJSTm1CTXJPWnVtb2hWSTNmbldZamZRJTNEJTNE&rid=301579559" target="_blank"><div>Shutterstock</div></a>
+        <a class="account" href="https://www.freepik.com/author/graciaisgrace" target="_blank"><div>Freepik</div></a>
+        <a class="account" href="https://aline19gracia.myportfolio.com/" target="_blank"><div>Adobe Stock</div></a>
+        <a class="account" href="https://www.vectorstock.com/royalty-free-vectors/vectors-by_Graciaisgrace" target="_blank"><div>Vectoc Stock</div></a>
+        <a class="account" href="https://www.dreamstime.com/graciaisgrace_info" target="_blank"><div>Dreamstime</div></a>
+        <a class="account" href="https://www.redbubble.com/people/Graciaisgrace/shop?asc=u" target="_blank"><div>Redbubble</div></a>
+    </section>
+
+    <section id="sect-4">
+        <div id="contact-box">
+            <form id="form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Your name..">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Your email address..">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" placeholder="Your message.."></textarea>
+                <button id="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    </main>
+<script src="./script.js"></script>
+</body>
+</html>
